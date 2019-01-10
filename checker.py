@@ -1,6 +1,6 @@
 #!/usr/bin/python
  # -*-coding:Latin-1 -*
-import sys,urllib2
+import sys, urllib2
 from multiprocessing import Pool
 from multiprocessing.dummy import Pool as ThreadPool
 def prRed(prt): print("\033[91m {}\033[00m" .format(prt))
