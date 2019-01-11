@@ -1,4 +1,6 @@
 #!/usr/bin/python
+#Mass-Checker-Shell
+#Bangsat2019
  # -*-coding:Latin-1 -*
 import sys, urllib2
 from multiprocessing import Pool
@@ -17,12 +19,12 @@ def cms(url):
  
    op =urllib2.urlopen(url,timeout=7)
    if "Upload" in op.read():
-     prGreen( "Found "+url)
+     prGreen( "Bangsat Ditemukan "+url)
      open("found.txt","a").write(url)
 
   
  except:
-    prRed ( "Not Work"+ url)
+    prRed ( "Bangsat Menghilang"+ url)
     pass
 
 
@@ -42,4 +44,7 @@ pool.close()
 pool.join()
  
 if __name__ == '__main__':     
-    print("Finished, success")
+  prCyan(print("Program Finished <3")
+  PrGreen(print("Bangsat yang di temukan : found.txt")
+  prYellow(print(" Raymond7 - Garuda Security Hacker")
+ 
