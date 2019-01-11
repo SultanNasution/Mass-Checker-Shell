@@ -14,6 +14,27 @@ def prCyan(prt): print("\033[96m {}\033[00m" .format(prt))
 def prLightGray(prt): print("\033[97m {}\033[00m" .format(prt))
 def prBlack(prt): print("\033[98m {}\033[00m" .format(prt))
 
+ if __name__ == '__main__':
+ 
+  print
+  print
+  print  
+
+printcolored("prCyan", "_________ .__                   __                    _________.__           .__  .__     ")   
+printcolored("prCyan", "\_   ___ \|  |__   ____   ____ |  | __ ___________   /   _____/|  |__   ____ |  | |  |    ")
+printcolored("prCyan", "/    \  \/|  |  \_/ __ \_/ ___\|  |/ // __ \_  __ \  \_____  \ |  |  \_/ __ \|  | |  |    ")
+printcolored("prCyan", "\     \___|   Y  \  ___/\  \___|    <\  ___/|  | \/  /        \|   Y  \  ___/|  |_|  |__  ")
+printcolored("prCyan", " \______  /___|  /\___  >\___  >__|_ \\___  >__|    /_______  /|___|  /\___  >____/____/  ")
+printcolored("prCyan", "        \/     \/     \/     \/     \/    \/                \/      \/     \/             ")
+print
+printcolored("prGreen", " Mass Checker Shell By Raymond7 - Garuda Security Hacker")
+printcolored("prGreen", " Thanks To : All Member Garuda Security Hacker")
+printcolored("prGreen", " Greezt : Mr.xBarakuda - ./Xi4u7 - ./Pierr0t's")
+             
+  
+  
+ 
+ 
 def cms(url):
  try:
  
@@ -44,7 +65,11 @@ pool.close()
 pool.join()
  
 if __name__ == '__main__':     
-  prCyan(print("Program Finished <3")
-  PrGreen(print("Bangsat yang di temukan : found.txt")
-  prYellow(print(" Raymond7 - Garuda Security Hacker")
+ print
+ print
+ print
+ 
+ printcolored("prCyan", "Program Finished Boy")
+ printcolored("prGreen", "Bangsat yang di temukan : found.txt")
+ printcolored("prYellow", " Raymond7 - Garuda Security Hacker")
  
