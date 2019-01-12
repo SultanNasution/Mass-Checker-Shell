@@ -53,10 +53,7 @@ pool.close()
 pool.join()
  
 if __name__ == '__main__': 
- print
- print
- print
  
-    prPurple("Program Finished")
-    prPurple("Raymond7 - Garuda Security Hacker")
+    print("Program Finished")
+    print("Raymond7 - Garuda Security Hacker")
 
