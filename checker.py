@@ -12,6 +12,7 @@ def prCyan(prt): print("\033[96m {}\033[00m" .format(prt))
 def prLightGray(prt): print("\033[97m {}\033[00m" .format(prt))
 def prBlack(prt): print("\033[98m {}\033[00m" .format(prt))
 
+prRed(" Garuda Security Hacker")
 prCyan("_________ .__                   __                    _________.__           .__  .__     ")   
 prCyan("\_   ___ \|  |__   ____   ____ |  | __ ___________   /   _____/|  |__   ____ |  | |  |    ")
 prCyan("/    \  \/|  |  \_/ __ \_/ ___\|  |/ // __ \_  __ \  \_____  \ |  |  \_/ __ \|  | |  |    ")
@@ -19,7 +20,9 @@ prCyan("\     \___|   |  \  ___/\  \___|    <\  ___/|  | \/  /        \|   Y  \ 
 prCyan(" \______  /___|  /\___  >\___  >__|_ \\___  >__|    /_______  /|___|  /\___  >____/____/  ")
 prCyan("        \/     \/     \/     \/     \/    \/                \/      \/     \/             ")
 
-
+prYellow("Mass Checker Shell By Raymond7 - Garuda Security Hacker")
+prYellow("Thanks To : Garuda Security Hacker - Tasik9etar")
+prYellow("Greezt : Mr.xBarakuda - ./Xi4u7 - ./Pierr0t's")
 def cms(url):
  try:
  
@@ -49,7 +52,11 @@ pool.map(cms, ListPass)
 pool.close()
 pool.join()
  
-if __name__ == '__main__':     
-    printColored("prCyan", "Program Finished")
-    printColored("prCyan", "Raymond7 - Garuda Security Hacker")
+if __name__ == '__main__': 
+ print
+ print
+ print
+ 
+    prPurple("Program Finished")
+    prPurple("Raymond7 - Garuda Security Hacker")
 
