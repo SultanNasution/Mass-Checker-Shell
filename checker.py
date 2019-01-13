@@ -17,7 +17,6 @@ def prBlack(prt): print("\033[98m {}\033[00m" .format(prt))
 prRed(" Garuda Security Hacker")
 print("")
 print("")
-print("")
 prCyan("_________ .__                   __                    _________.__           .__  .__     ")   
 prCyan("\_   ___ \|  |__   ____   ____ |  | __ ___________   /   _____/|  |__   ____ |  | |  |    ")
 prCyan("/    \  \/|  |  \_/ __ \_/ ___\|  |/ // __ \_  __ \  \_____  \ |  |  \_/ __ \|  | |  |    ")
@@ -31,6 +30,10 @@ print("")
 prYellow("Mass Checker Shell By Raymond7 - Garuda Security Hacker")
 prYellow("Thanks To : Garuda Security Hacker - Tasik9etar")
 prYellow("Greezt : Mr.xBarakuda - ./Xi4u7 - ./Pierr0t's")
+
+print("")
+print("")
+
 def cms(url):
  try:
  
