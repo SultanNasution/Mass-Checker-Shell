@@ -14,3 +14,6 @@ $ cd Mass-Checker-Shell
 
 $ python2 checker.py list.txt
 
+# Result 
+
+$ check found.txt untuk hasilnya
