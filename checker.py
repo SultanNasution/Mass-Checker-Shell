@@ -1,5 +1,7 @@
 #!/usr/bin/python
- # -*-coding:Latin-1 -*
+#Mass Checker Shell By Raymond7
+#biar gk cape ya kentod
+
 import sys,urllib2
 from multiprocessing import Pool
 from multiprocessing.dummy import Pool as ThreadPool
@@ -13,8 +15,9 @@ def prLightGray(prt): print("\033[97m {}\033[00m" .format(prt))
 def prBlack(prt): print("\033[98m {}\033[00m" .format(prt))
 
 prRed(" Garuda Security Hacker")
-
-
+print("")
+print("")
+print("")
 prCyan("_________ .__                   __                    _________.__           .__  .__     ")   
 prCyan("\_   ___ \|  |__   ____   ____ |  | __ ___________   /   _____/|  |__   ____ |  | |  |    ")
 prCyan("/    \  \/|  |  \_/ __ \_/ ___\|  |/ // __ \_  __ \  \_____  \ |  |  \_/ __ \|  | |  |    ")
@@ -22,9 +25,9 @@ prCyan("\     \___|   |  \  ___/\  \___|    <\  ___/|  | \/  /        \|   Y  \ 
 prCyan(" \______  /___|  /\___  >\___  >__|_ \\___  >__|    /_______  /|___|  /\___  >____/____/  ")
 prCyan("        \/     \/     \/     \/     \/    \/                \/      \/     \/             ")
 
-
-
-
+print("")
+print("")
+print("")
 prYellow("Mass Checker Shell By Raymond7 - Garuda Security Hacker")
 prYellow("Thanks To : Garuda Security Hacker - Tasik9etar")
 prYellow("Greezt : Mr.xBarakuda - ./Xi4u7 - ./Pierr0t's")
@@ -58,7 +61,9 @@ pool.close()
 pool.join()
  
 if __name__ == '__main__': 
- 
-    print("Program Finished")
+ print("")
+ print("")
+    print("Program Finished , Created found.txt")
+    print("Mission Succes")
     print("Raymond7 - Garuda Security Hacker")
 
