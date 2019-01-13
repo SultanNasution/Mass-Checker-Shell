@@ -61,8 +61,7 @@ pool.close()
 pool.join()
  
 if __name__ == '__main__': 
- print("")
- print("")
-    print("Selesai")
+ 
+    print("Program Finished")
     print("Raymond7 - Garuda Security Hacker")
 
