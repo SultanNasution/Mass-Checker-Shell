@@ -63,7 +63,6 @@ pool.join()
 if __name__ == '__main__': 
  print("")
  print("")
-    print("Program Finished")
-    print("Mission Succes")
+    print("Program Finished"
     print("Raymond7 - Garuda Security Hacker")
 
