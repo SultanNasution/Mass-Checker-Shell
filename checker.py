@@ -1,6 +1,5 @@
 #!/usr/bin/python
-#Mass Checker Shell By Raymond7
-#biar gk cape ya kentod
+#Mass-Checker-Shell By Raymond7
 
 import sys,urllib2
 from multiprocessing import Pool
@@ -29,7 +28,7 @@ print("")
 print("")
 prYellow("Mass Checker Shell By Raymond7 - Garuda Security Hacker")
 prYellow("Thanks To : Garuda Security Hacker - Tasik9etar")
-prYellow("Greezt : Mr.xBarakuda - ./Xi4u7 - ./Pierr0t's")
+prYellow("Greezt : Mr.xBarakuda - ./Xi4u7 - BDJ-007")
 
 print("")
 print("")
@@ -39,12 +38,12 @@ def cms(url):
  
    op =urllib2.urlopen(url,timeout=7)
    if "Upload" in op.read():
-     prGreen( "langgeng => "+url)
+     prGreen( "LIVE => "+url)
      open("found.txt","a").write(url)
 
   
  except:
-    prRed ( "di tinggalin => "+ url)
+    prRed ( "DIE => "+ url)
     pass
 
 
