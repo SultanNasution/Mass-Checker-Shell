@@ -38,12 +38,12 @@ def cms(url):
  
    op =urllib2.urlopen(url,timeout=7)
    if "Upload" in op.read():
-     prGreen( "LIVE => "+url)
+     prGreen( "[LIVE] : "+url)
      open("found.txt","a").write(url)
 
   
  except:
-    prRed ( "DIE => "+ url)
+    prRed ( "[DIE] : "+ url)
     pass
 
 
