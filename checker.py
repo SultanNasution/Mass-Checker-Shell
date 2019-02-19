@@ -1,5 +1,4 @@
 #!/usr/bin/python
-#Mass-Checker-Shell By Raymond7
 
 import sys,urllib2
 from multiprocessing import Pool
