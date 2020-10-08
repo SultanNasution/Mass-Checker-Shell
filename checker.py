@@ -12,7 +12,7 @@ def prCyan(prt): print("\033[96m {}\033[00m" .format(prt))
 def prLightGray(prt): print("\033[97m {}\033[00m" .format(prt))
 def prBlack(prt): print("\033[98m {}\033[00m" .format(prt))
 
-prRed(" Garuda Security Hacker")
+prRed(" ZZZZZ MENGANTUK ")
 print("")
 print("")
 prCyan("_________ .__                   __                    _________.__           .__  .__     ")   
