@@ -25,8 +25,8 @@ prCyan("        \/     \/     \/     \/     \/    \/                \/      \/  
 print("")
 print("")
 print("")
-prYellow("Mass Checker Shell By Raymond7 - Garuda Security Hacker")
-prYellow("Thanks To : Garuda Security Hacker - Tasik9etar")
+prYellow("Mass Checker Shell By Raymond7")
+prYellow("Thanks To : IndoXploit")
 prYellow("Greezt : Mr.xBarakuda - ./Xi4u7 - BDJ-007")
 
 print("")
@@ -64,5 +64,4 @@ pool.join()
 if __name__ == '__main__': 
  
     print("Program Finished")
-    print("Raymond7 - Garuda Security Hacker")
 
